@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 2 - Hyperlinks e Tabela</title>
+    <style>
+        table{
+            width: 100%; 
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid purple;
+            padding: 8px;
+            text-align: left;
+        }
+        th{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="topo">Bem-vindo a aula de Hyperlinks e Tabelas</h1>
+    <h2>Hyperlinks</h2>
+    <p>Visite um site externo: <a href="https://www.google.com" target="_blank">Google</a> </p> <!--Link externo-->
+
+    <p>Visite a página Sobre: <a href="about.html">Página Sobre</a></p> <!--Link interno-->
+
+    <h2>Tabelas</h2>
+    <table> <!--Inicia tabela-->
+        <tr> <!--Cria linha da tabela-->
+            <th>Cabeçalho 1</th> <!--Cria cabeçalho-->
+            <th>Cabeçalho 2</th>
+        </tr>
+        <tr>
+            <td>Célula 1</td> <!--Cria célula-->
+            <td>Célula 2</td>
+        </tr>
+        <tr>
+            <td>Célula 3</td>
+            <td>Célula 4</td>
+        </tr>
+        <tr>
+            <th colspan="2">Cabeçalho Mesclado</th> <!--ocupar mais de uma coluna-->
+        </tr>
+        <tr>
+            <td>Cabeçalho 1</td> 
+            <td>Cabeçalho 2</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Célula Mesclada</td> <!--Ocupar mais de uma linha-->
+            <td>Célula 3</td>
+        </tr>
+        <tr>
+            <td>Célula 4</td>
+        </tr>
+    </table>
+
+    <h2>Preenchendo página</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non illo consequuntur aspernatur ad dolores similique dolorum numquam accusantium eveniet? Temporibus ipsum ad amet quisquam excepturi ex voluptatem natus veritatis commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatem hic ipsum porro atque iure voluptas nisi et. Deserunt, distinctio quibusdam? Dignissimos doloremque debitis qui eligendi ullam non quam in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores maxime perferendis non iusto aut laborum odio delectus! Tempora unde, dicta, quasi earum dolore ea adipisci dolor a eligendi quas amet! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis maxime minus tempora impedit, itaque velit aut nihil odio totam facilis reprehenderit sapiente omnis sunt illo atque. Voluptatum magni ab non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sapiente commodi maxime aliquam voluptatibus cum, atque velit? Eligendi veritatis, pariatur temporibus voluptatibus aut ea, adipisci rem laborum ut dicta perferendis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas mollitia laboriosam natus vel nam quod rerum esse enim repudiandae? Porro voluptatum sit perferendis earum pariatur officia vitae, ullam voluptate fuga.</p>
+
+    <a href="#topo">Topo da página</a><br> <!--Link de bookmark-->
+</body>
+
+</html>
