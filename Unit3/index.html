@@ -39,9 +39,59 @@
             <input type="radio" name="gênero" value="masculino"> Masculino <br>
             <input type="radio" name="gênero" value="feminino"> Feminino <br>
 
-            <li>Arquivo(file)</li>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-
+            <h4>Arquivo(file)</h4>     
+            Selecione um Arquivo:
+            <input type="file" name="arquivo">
             
+            <button type="sibmit">Enviar</button>
+            <button type="reset">Limpar</button>
+
+        </form>
+
+        <h1>Exemplo Formulário</h1>
+
+        <h2> Formulário de cadastro</h2>
+
+        <form action="" method="post">
+            Nome: <input type="text" name="name" placeholder="Digite seu nome aqui" required> <br><br>
+
+            Username: <input type="text" name="username" minlength="3" maxlength="8" required> <br><br>
+            
+            Senha: <input type="password" name="Senha" required> <br><br>
+
+            Email: <input type="email" name="Email" required> <br><br>
+
+            Idade: <input type="number" name="Idade" min="1" max="100"> <br><br>
+
+            LinkedIn: <input type="url" name="site" placeholder="Cole o link aqui"> <br><br>
+
+            Data de Nascimento: <input type="date" name="nascimento"> <br><br>
+
+            Cargo: <input type="text" value="Gerente" readonly> <br><br>
+
+            Segunda opção: <input type="text" value="Não aplicável" disabled> <br><br>
+
+            Escolha seu país:
+            <select name="país">
+                <option value="brasil">Brasil</option>
+                <option value-="eua">Estados Unidos</option>
+                <option value-="canada">Canadá</option>
+            </select> <br><br>
+
+            Gênero:<br>
+            <input type="radio" name="gênero" value="masculino"> Masculino <br>
+            <input type="radio" name="gênero" value="feminino"> Feminino <br><br>
+
+            Você concorda com os termos da empresa:
+            <input type="checkbox" name="termos"> <br><br>
+
+            Foto: <input type="file" name="foto"> <br><br>
+
+            Mensagem:<br>
+            <textarea name="mensagem" roles="4" cols="50" placeholder="Digite sua mensagem aqui"></textarea> <br><br>
+            
+            <button type="sibmit">Enviar</button>
+            <button type="reset">Limpar</button>
         </form>
     </body>
 </html>
