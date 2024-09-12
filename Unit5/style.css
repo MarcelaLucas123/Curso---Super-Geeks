@@ -47,3 +47,57 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+.menu, .right{
+    background-color: bisque;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 1);
+}
+
+.menu{
+    width: 20%;
+    text-align: center;
+}
+
+.menu a{
+    background-color: blanchedalmond;
+    color: blueviolet;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px 0;
+    display: block;
+    border-radius: 5px;
+    transition: backgroud-color 0.3s ease;
+}
+
+.menu a:hover{
+    background-color: darkgrey;
+}
+
+.main{
+    width: 54%;
+    padding: 20px;
+    margin: 10px;
+    background-color: antiquewhite;
+}
+
+.right{
+    width: 20%;
+    padding: 20px;
+    background-color: khaki;
+}
+
+.footer{
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 620px){
+    .menu, .main, .right {
+        width: 100%;
+    }
+}
