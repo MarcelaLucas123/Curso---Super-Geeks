@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unit 6 - Criando Menus com HTML e CSS</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
+    <br>
     <h2>Lista Ordenada</h2>
     <p>Para criar uma lista ordenada, usamos a Tag <b>ol</b> e a Tag <b>li</b> para declarar 
         os elementos da lista.
@@ -30,5 +32,54 @@
         <li>Leite</li>
     </ul>
     
+    <h2>Lista Alinhada</h2>
+
+    <ol>
+        <li>Café</li>
+        <ul>
+            <li>Capuccino</li>
+            <li>Preto</li>
+            <li>Com Leito</li>
+        </ul>
+        <li>Sucos</li>
+        <ul>
+            <li>Laranja</li>
+            <li>Maracujá</li>
+        </ul>
+    </ol>
+
+    <h2>Barra de Navegação Vertical</h2>
+
+    <ul class="vertical">
+        <li> <a href="#">Início</a></li>
+        <li> <a href="#">Notícias</a></li>
+        <li> <a href="#">Contato</a></li>
+        <li> <a href="#">Sobre</a></li>
+    </ul>
+
+    <h2>Barra de Navegação Horizontal</h2>
+    
+    <ul class="horizontal">
+        <li> <a href="#"><i class="fa-solid fa-house"></i> Início</a></li>
+        <li> <a href="#"><i class="fa-regular fa-newspaper"></i> Notícias</a></li>
+        <li> <a href="#"><i class="fa-regular fa-comments"></i> Contato</a></li>
+        <li> <a href="#"><i class="fa-regular fa-id-badge"></i> Sobre</a></li>
+    </ul>
+
+    <h2>Menu Suspenso</h2>
+
+    <ul class="menu">
+        <li> <a href="#">Início</a></li>
+        <li> <a href="#">Notícias</a>
+            <ul class="submenu">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </li>
+        <li> <a href="#">Contato</a></li>
+        <li> <a href="#">Sobre</a></li>
+    </ul>
+
 </body>
 </html>
