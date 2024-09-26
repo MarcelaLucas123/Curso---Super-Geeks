@@ -1,0 +1,19 @@
+.meu-botao {
+    background-color: cornflowerblue;
+    color: aliceblue;
+    border-radius: 6px;
+    border-style: none;
+    padding: 7px;
+}
+
+.bloco-1 {
+    background-color: coral;
+    /* padding: 10px; */
+    /* padding: 10px 0; */
+}
+
+.bloco-2 {
+    background-color: burlywood;
+    /* margin: 10px; */
+    /* margin: 10px 0; */
+}
