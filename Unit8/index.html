@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Loja para Pets</title>
+    <title>Animais</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
@@ -13,9 +13,9 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg" style="background-color: burlywood;">
+    <nav class="navbar navbar-expand-lg" style="background-color: rgb(15, 141, 15);">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img src="./imagens/Portal-do-Biologo.png" height="30px"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -35,12 +35,12 @@
                             Ver Mais
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Rações</a></li>
-                            <li><a class="dropdown-item" href="#">Brinquedos</a></li>
+                            <li><a class="dropdown-item" href="#">Vertebrados</a></li>
+                            <li><a class="dropdown-item" href="#">Invertebrados</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Roupas ou Acessórios</a></li>
+                            <li><a class="dropdown-item" href="#">Outros tipos de Animais</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -55,7 +55,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid mt-4" style="background-color: floralwhite;">
+    <div class="container-fluid mt-4" style="background-color: rgb(185, 253, 164);">
         <div id="carouselExampleIndicators" class="carousel slide carousel-dark" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -69,16 +69,19 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./imagens/acessorios.png" class="d-block w-80 mx-auto" alt="..." height="400px">
+                    <img src="./imagens/acessorios.png" class="d-block w-80 mx-auto img-carousel" alt="..."
+                        height="400px">
                 </div>
                 <div class="carousel-item">
-                    <img src="./imagens/cachorros.avif" class="d-block w-80 mx-auto" alt="..." height="400px">
+                    <img src="./imagens/cachorros.avif" class="d-block w-80 mx-auto img-carousel" alt="..."
+                        height="400px">
                 </div>
                 <div class="carousel-item">
-                    <img src="./imagens/cachorro_gato.gif" class="d-block w-80 mx-auto" alt="..." height="400px">
+                    <img src="./imagens/cachorro_gato.gif" class="d-block w-80 mx-auto img-carousel" alt="..."
+                        height="400px">
                 </div>
                 <div class="carousel-item">
-                    <img src="./imagens/gatos.jpg" class="d-block w-80 mx-auto" alt="..."height="400px">
+                    <img src="./imagens/gatos.jpg" class="d-block w-80 mx-auto img-carousel" alt="..." height="400px">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -91,6 +94,77 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 g-5 m-auto">
+        <div class="col">
+            <div class="card">
+                <img src="./imagens/iguana.jfif" class="card-img-top img-card" alt="..." height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="./imagens/mico-leão-dourado.webp" class="card-img-top img-card" alt="..." height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="./imagens/animais.webp" class="card-img-top img-card" alt="..." height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="./imagens/cobra.jfif" class="card-img-top img-card" alt="..." height="250px">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="m-3">
+        <label for="exampleFormControlInput1" class="form-label">Escreva seu E-mail para cadastrar:</label>
+        <input type="email" class="form-control w-50" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+
+   <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary m-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Confirmar
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Cadastro conluido</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Bem-vindo! Você reberá um e-mail de confirmação em breve
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
         </div>
     </div>
 
